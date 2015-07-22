@@ -1,6 +1,10 @@
 body {
+  font-family: 'Lobster', cursive;
+  color: white;
   line-height: 1.5;
+  font-size: 20px;
 
+  background: url("../images/poe_park_gazebo.jpg");
   /* Full Page Background Receipe */
   background-size: cover;
   background-position: center;
@@ -8,6 +12,28 @@ body {
 }
 
 .container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   width: 500px;
   margin: 40px;
+  padding: 15px;
+  background: rgba(0,0,0,0.5);
 }
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  margin-bottom: -50px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+a {
+  color: green;
+}
+
